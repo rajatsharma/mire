@@ -7,7 +7,7 @@ use std::sync::Arc;
 use crate::chain::ChainExt;
 use crate::context::Context;
 
-/// The core Error type of the library
+/// The core Error type of mire
 pub struct Error {
     inner: Box<ErrorImpl>,
 }
